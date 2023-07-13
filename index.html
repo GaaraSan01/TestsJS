@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este é um projeto de teste de funcionalidades.">
+    <script src="https://kit.fontawesome.com/e8e8734c7a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Projetos de testes JS</title>
+</head>
+<body>
+    <header id="inicio-home">
+        <div class="container">
+            <h1><a href="#">TestesJS</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#test-01">Test1</a></li>
+                    <li><a href="#test-02">Test2</a></li>
+                    <li><a href="#test-03">Test3</a></li>
+                    <li><a href="#test-04">Test4</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <span class="line1"></span>
+                    <span class="line2"></span>
+                    <span class="line3"></span>
+                </div>
+            </nav>
+        </div>
+        <nav class="responsiva">
+            <ul>
+                <li><a href="#test-01">Test1</a></li>
+                <li><a href="#test-02">Test2</a></li>
+                <li><a href="#test-03">Test3</a></li>
+                <li><a href="#test-04">Test4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="banner"></div>
+            <div class="container-01">
+                <div class="content">
+                    <div class="initial">
+                        <h2>Projeto de TestesJS</h2>
+                        <p>
+                            Aqui acontecerá varios testes de funcionlidades
+                            de JavaScript Vanilla.
+                        </p>
+                        <div>
+                            <a href="#test-01">Ver testes...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="test-01">
+            <div class="container-02">
+                <div class="form-01">
+                    <div class="form">
+                        <input 
+                            type="text" 
+                            name="text" 
+                            id="text-01" 
+                            placeholder="Digite a URL de um video ou img..."
+                            autocomplete="off"
+                        >
+                        <button type="submit" id="buttonMidia">Fazer download</button>
+                    </div>
+                </div>
+                <div class="copy-01">
+                    <h2>
+                        Donwload Files
+                    </h2>
+                    <p>
+                        Esse formulário ao lado faz o download
+                        de imagens conforme o link adicionado no input. <br>
+                        <span>Lembrando que precisa ser imagens publicas.</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="test-02">
+            <div class="container-03">
+                <div class="copy-01">
+                    <h2>
+                        Conversor de Moedas
+                    </h2>
+                    <p>
+                        Esse formulário ao lado faz a conversão de moedas estrangeiras
+                        e virtuais como BTC & ETH. <br>
+                        <span>Lembrando que Lembrando que é convertida para Real BR.</span>
+                    </p>
+                </div>
+                <div class="form-01">
+                    <div class="form">
+                        <input 
+                            type="text" 
+                            name="text" 
+                            id="valueConvertion" 
+                            placeholder="Digite um valor..."
+                            autocomplete="off"
+                        >
+                        <select name="moedas" id="moedas">
+                            <option value="USD">Dolar Americano</option>
+                            <option value="EUR">Euro</option>
+                            <option value="GBP">Libra Esterlina</option>
+                            <option value="JPY">Yene Japonês</option>
+                            <option value="BTC">Bitcoin</option>
+                            <option value="ETH">Etherium</option>
+                        </select>
+                        <button type="submit" id="buttonConvertion">Fazer conversão</button>
+                        <div id="resConvertion"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="test-03">
+            <div class="container-02">
+                <div id="scroll-animation">
+                    <div class="tag-list"></div>
+                </div>
+                <h2>Infinite Scroll Animation</h2>
+            </div>
+        </section>
+        <section id="test-04">
+            <div class="container-04">
+                <div class="headContainer">
+                    <h2>Tabs tests</h2>
+                    <nav>
+                        <ul class="tab-links">
+                            <li data-id="html" data-open>HTML</li>
+                            <li data-id="css">CSS</li>
+                            <li data-id="js">JS</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="tab-content">
+                    <div class="conteudo" id="html">
+                        <div class="content">
+                            <h3>
+                                HTML5
+                            </h3>
+                            <p>
+                                O html é uma linguagem de marcação, para conteudo
+                                web.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="conteudo" id="css">
+                        <div class="content">
+                            <h3>
+                                CSS3
+                            </h3>
+                            <p>
+                                O css é uma linguagem de estilização, ou seja, é o que faz 
+                                as coisas ficarem visualmente agradaveis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="conteudo" id="js">
+                        <div class="content">
+                            <h3>
+                                JavaScript
+                            </h3>
+                            <p>
+                                O JavaScript é uma linguagem de programação, para funcionalidades
+                                em paginas web. Podendo ser utilizada tanto no front-end, quanto no back-end com o
+                                NodeJs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="icon-up">
+            <a href="#inicio-home">
+                <img src="./styles/icons/expand_less_FILL0_wght400_GRAD0_opsz48.svg" alt="topo">
+            </a>
+        </div>
+        <div class="container-footer">
+            <div class="projeto">
+                <p>
+                    Esse projeto foi desenvolvido para
+                    pequenos testes pessoais com HTML5, CSS3 e JavaScript.
+                </p>
+            </div>
+            <div class="links-internos">
+                <nav>
+                    <ul>
+                        <li><a href="#test-01">> Test1</a></li>
+                        <li><a href="#test-02">> Test2</a></li>
+                        <li><a href="#test-03">> Test3</a></li>
+                        <li><a href="#test-04">> Test4</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="links-externos">
+                <ul>
+                    <li><a href="https://github.com/GaaraSan01" title="github" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/vinih.io/" title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/vin%C3%ADcius-henrique-machado-598435247/" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            <span style="color: var(--primary-color); font-style: italic; font-weight: 800;">
+                &copy;ViníciusH. - <a href="https://github.com/GaaraSan01" style="text-decoration: none; color: var(--primary-color);">GaaraSan01(2023)</a>
+            </span>
+        </div>
+    </footer>
+</body>
+<script src="./scripts/scripts.js"></script>
+</html>
