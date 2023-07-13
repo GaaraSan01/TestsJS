@@ -349,7 +349,7 @@ footer .icon-up {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: calc(100vh - 10%);
+    top: calc(100vh - 15%);
     left: calc(100% - 70px);
     z-index: 100;
 }
